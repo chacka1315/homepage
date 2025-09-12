@@ -223,20 +223,22 @@ footer .links {
   gap: 2rem;
 }
 
-.phone,
+.phone a,
 .email a {
   display: flex;
   align-items: center;
   gap: 1rem;
   color: inherit;
 }
-.email a:hover {
+.email a:hover,
+.phone a:hover {
   color: var(--color-tertiary);
   opacity: 0.9;
   text-decoration: underline;
 }
 
-.email svg:hover {
+.email svg:hover,
+.phone svg:hover {
   fill: var(--color-tertiary);
   fill-opacity: 0.9;
 }
